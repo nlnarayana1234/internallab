@@ -8,6 +8,8 @@ public class Simple_interest {
 	}
 	public static void simpleinterest(int p, int t, int r)
 	{
-		
+		double x;
+		x = (p*t*r)/100;
+		System.out.println("simple interest : "+x);
 	}
 }
