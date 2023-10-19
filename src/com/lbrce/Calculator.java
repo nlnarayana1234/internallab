@@ -12,18 +12,26 @@ public class Calculator {
 	}
 	public static void summation(int a, int b)
 	{
+		int c = a+b;
 		//Summation process
+		System.out.println("Sum = "+c);
 	}
 	public static void difference(int a, int b)
 	{
+		int c = b-a;
 		//Subtraction process
+		System.out.println("Difference = "+c);
 	}
 	public static void product(int a, int b)
 	{
+		int c = a*b;
 		//Multiplication process
+		System.out.println("Product = "+c);
 	}
 	public static void division(int a, int b)
 	{
+		int c = b/a;
 		//Division process
+		System.out.println("Division = "+c);
 	}
 }
