@@ -8,6 +8,8 @@ public class Area_of_Circle {
 	}
 	public static void areaofcircle(int r)
 	{
-		
+		double x;
+		x = 3.14*r*r;
+		System.out.println("Area of circle is : "+x);
 	}
 }
